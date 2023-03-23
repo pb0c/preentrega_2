@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    min-height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #f1e1fa;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    padding-bottom: 20%;
+}
+
+main{
+    padding: 2.5%;
+}
+
+h1{    
+    font-family: fantasy;
+    color: #87358B;
+    font-size: 60px;
+    letter-spacing: 3px;
+
+}
+
+h2{
+    color: #4C0350;
+    font-size: 28px;
+}
+
+
+/* ============= Header =============== */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 15px;
+    background-color: #F5D0F7;
+    height: 60px;
+}
+
+header a, header a:link, header a:visited, header a:hover, header a:active{
+    color: #87358B;
+    text-decoration: none;
+}
+
+.pink{
+    background-color: #F5D0F7;
+}
+
+
+/* ============= Main =============== */
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.banner{
+    padding: 2%;
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap: 4%;
+    padding: 2%;
+    justify-content: center;
+}
+
+
+
+/* ============= Footer =============== */
+
+footer{
+    display: flex;
+    height: 120px;
+    padding: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5D0F7;
+    font-size: 16px;
+}
+
+.icono{
+    flex-direction: row;
+    justify-content: space-around;
+    border:none;
+}
+
+.icono img{
+    margin: 5px;
+    width: 40px;
+}
+
+
+.info p{
+    padding: 0%;
+    margin-left: 20%;
+}
